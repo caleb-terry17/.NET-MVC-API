@@ -1,7 +1,8 @@
 using ContosoPizza.Models;
 
 namespace ContosoPizza.Services;
-
+// this provides a simple in-memory data caching service with two pizzas by default
+// web api will use this service for demo purposes
 public static class PizzaService
 {
     static List<Pizza> Pizzas { get; }
