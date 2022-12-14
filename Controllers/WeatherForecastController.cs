@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ContosoPizza.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("[controller]")]  // controller token is replaced by controllers name, in this case, that's weatherforecast (case insentive)
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
